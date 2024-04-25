@@ -1,0 +1,24 @@
+#mentorsimage{
+   
+}
+.navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 20%;
+    background-color: greenyellow;
+    color: white;
+}
+#details{
+    font-size: larger;
+    margin-top: 10%;
+    
+}
+body{
+    background-color:aliceblue;
+}
+#mentor{
+    display: flex;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 20%;
+    background-color: greenyellow;
+    color: white;
+}
+#landingcontent{
+  display: flex; 
+  gap: 5%; 
+  margin-top: 5%;
+}
+.landingcontent{
+    font-size: 20px;
+    
+}
+#landingheader{
+  color: blue;
+}
+body{
+  background-color:aliceblue;
+}
+#footer{
+  display: flex;
+  gap: 20%;
+}

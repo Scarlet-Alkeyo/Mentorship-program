@@ -1,0 +1,22 @@
+#heading{
+    color: blue;
+}
+body{
+    background-color:aliceblue;
+}
+#content{
+    font-size: 30px;
+}
+.navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 20%;
+    background-color: greenyellow;
+    color: white;
+}
+body{
+    text-align: center;
+}
