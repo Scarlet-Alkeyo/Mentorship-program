@@ -5,23 +5,23 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
-    width: 100%;
+    
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+
+    border: none;
+  
   }
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: blue;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    margin-left: 40%;
   }
   
   /* Add a hover effect for buttons */
@@ -45,7 +45,7 @@ form {
   /* Avatar image */
   img.avatar {
     width: 40%;
-    border-radius: 50%;
+    border-radius: 5%;
   }
   
   /* Add padding to containers */
