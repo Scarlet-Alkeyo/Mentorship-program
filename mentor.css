@@ -8,7 +8,7 @@
     padding: 5px;
     display: flex;
     gap: 20%;
-    background-color: greenyellow;
+    background-color: blue;
     color: white;
 }
 #details{
@@ -22,3 +22,43 @@ body{
 #mentor{
     display: flex;
 }
+@media screen and (min-width: 375px) and(max-width:768px){
+
+    .navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        display: flex;
+    
+        background-color: blue;
+        color:whitesmoke;
+    }
+    #mentor{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  
+  
+  }
+  
+  .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  
+    background-color: blue;
+    color:whitesmoke;
+  }
+  #mentor{
+    display: flex;
+    flex-wrap: wrap;
+}
+#details{
+    font-size: large;
+    margin-top: 10%;
+    
+}
+

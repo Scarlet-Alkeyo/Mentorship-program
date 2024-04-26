@@ -14,7 +14,7 @@
   margin-top: 5%;
 }
 .landingcontent{
-    font-size: 20px;
+    font-size: larger;
     
 }
 #landingheader{
@@ -26,4 +26,72 @@ body{
 #footer{
   display: flex;
   gap: 20%;
+  margin-left: 20%;
 }
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+
+  background-color: blue;
+  color:whitesmoke;
+}
+#ladndingimage{
+  width: 700px;
+}
+
+
+
+
+@media screen and (min-width: 375px) and(max-width:768px){
+
+  .navbar{
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      display: flex;
+  
+      background-color: blue;
+      color:whitesmoke;
+  }
+  
+  .landingcontent{
+    font-size: 5px;
+    
+  }
+  #ladndingimage{
+    width: 80px;
+  }
+  
+
+
+}
+
+/* .navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: blue;
+  color:whitesmoke;
+}
+.landingcontent{
+  font-size: px;
+  
+}#footer{
+  display: flex;
+  gap: 5%;
+}
+#landingcontent{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 5%; 
+  margin-top: 5%;
+}
+#ladndingimage{
+  width: 80px;
+} */

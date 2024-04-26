@@ -14,10 +14,37 @@ body{
     padding: 5px;
     display: flex;
     gap: 20%;
-    background-color: greenyellow;
+    background-color:blue;
     color: white;
 }
 body{
     text-align: center;
+
 }
 
+@media screen and (min-width: 375px) and(max-width:768px){
+
+    .navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        display: flex;
+    
+        background-color: blue;
+        color:whitesmoke;
+    }
+    
+
+
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: blue;
+    color:whitesmoke;
+}
