@@ -22,6 +22,9 @@ body{
 #mentor{
     display: flex;
 }
+.navbar a{
+    color: aliceblue;
+  }
 @media screen and (min-width: 375px) and(max-width:768px){
 
     .navbar{

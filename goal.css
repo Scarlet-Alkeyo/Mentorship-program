@@ -14,6 +14,9 @@ body{
     background-color: blue;
     color:whitesmoke;
 }
+.navbar a{
+    color: aliceblue;
+  }
 
 
 @media screen and (max-width: 300px) {

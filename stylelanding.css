@@ -20,6 +20,9 @@
 #landingheader{
   color: blue;
 }
+.navbar a{
+  color: aliceblue;
+}
 body{
   background-color:aliceblue;
 }
