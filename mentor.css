@@ -1,4 +1,5 @@
 #mentorsimage{
+    margin-left: 10%;
    
 }
 .navbar{
@@ -7,21 +8,23 @@
     margin: 0;
     padding: 5px;
     display: flex;
-    gap: 20%;
+    gap: 10%;
     background-color: blue;
     color: white;
 }
 #details{
     font-size: larger;
-    margin-top: 10%;
+
+    margin-left: 5%;
+    
     
 }
 body{
-    background-color:aliceblue;
+    background-color:azure;
 }
-#mentor{
+/* #mentor{
     display: flex;
-}
+} */
 .navbar a{
     color: aliceblue;
   }
@@ -36,10 +39,10 @@ body{
         background-color: blue;
         color:whitesmoke;
     }
-    #mentor{
+    /* #mentor{
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     
   
   
@@ -55,10 +58,10 @@ body{
     background-color: blue;
     color:whitesmoke;
   }
-  #mentor{
+  /* #mentor{
     display: flex;
     flex-wrap: wrap;
-}
+} */
 #details{
     font-size: large;
     margin-top: 10%;
