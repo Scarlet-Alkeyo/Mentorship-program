@@ -1,5 +1,6 @@
 #mentorsimage{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    text-align: center;
    
 }
 .navbar{
@@ -11,20 +12,23 @@
     gap: 10%;
     background-color: blue;
     color: white;
+    font-size: 24px;
 }
 #details{
-    font-size: larger;
+    font-size: x-large;
 
-    margin-left: 5%;
+    
+    text-align: center;
     
     
+}
+#mentors{
+    text-align: center;
 }
 body{
-    background-color:azure;
-}
-/* #mentor{
-    display: flex;
-} */
+    background-color:antiquewhite;
+  }
+
 .navbar a{
     color: aliceblue;
   }

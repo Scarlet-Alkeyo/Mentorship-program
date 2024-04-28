@@ -38,6 +38,9 @@ form {
   .container {
     padding: 16px;
   }
+  body{
+    background-color: antiquewhite;
+  }
 
   
   /* Change styles for span  button on extra small screens */

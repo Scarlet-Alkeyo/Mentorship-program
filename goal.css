@@ -1,24 +1,70 @@
-body{
-    background-color:azure;
+#goals-page{
+    background-color: burlywood;
+    width: 40%;
+    padding-left: 200px;
+    margin-left: 20%;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    margin-left: 20%;
+    height: 910px;
 }
-#content{
-    text-align: center;
-    margin-top: 10%;
-    font-size: 20px;
+.logo{
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
 }
-
+a{
+    text-decoration: none;
+    color:black;
+}
+.logo-and-nav{
+    display: flex;
+    padding-top: 30px;
+    gap: 60px;
+}
+.goals-head{
+    font-size: 58px;
+    color: black;
+    margin-left: 43%;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 5%;
+}
 .navbar{
-    color: white;
-    list-style-type: none;
-    margin: 0;
-    padding: 30px;
     display: flex;
     gap: 10%;
-    background-color: blue;
-  
+    font-size: 24px;
+    padding-top: 50px;
 }
+.goal{
+    border-radius: 15px;
+    height: 35px;
+    width: 440px;
+    padding-left: 30px;
+    padding-bottom: -50px;
+    padding-top: 15px;
+}
+#goal-setting{
+    padding-left: 130px;
+    text-align: center;
+}
+#checkbox{
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+}
+.logo{
+    width: 100px;
+    width: 100px;
+}
+
 .navbar a{
     color: aliceblue;
+  }
+
+  body{
+    background-color:antiquewhite;
   }
 
 

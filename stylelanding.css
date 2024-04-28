@@ -4,7 +4,7 @@
     margin: 0;
     padding: 5px;
     display: flex;
-    gap: 15%;
+    gap: 10%;
     background-color: blue;
     color: white;
 }
@@ -14,7 +14,7 @@
   margin-top: 5%;
 }
 .landingcontent{
-    font-size: larger;
+    font-size: x-large;
     
 }
 #landingheader{
@@ -30,6 +30,7 @@ body{
   display: flex;
   gap: 20%;
   margin-left: 10%;
+  font-size: x-large;
   /* background-color: aquamarine; */
 }
 
@@ -38,12 +39,17 @@ body{
   margin: 0;
   padding: 5px;
   display: flex;
+  font-size: 24px;
 
   background-color: blue;
   color:whitesmoke;
 }
 #ladndingimage{
   width: 700px;
+}
+
+body{
+  background-color:antiquewhite;
 }
 
 
