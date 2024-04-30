@@ -1,6 +1,5 @@
 #mentorsimage{
-    /* margin-left: 10%; */
-    /* text-align: center; */
+   
    
 }
 .navbar{
@@ -17,6 +16,7 @@
 }
 #details{
     font-size: x-large;
+    margin-top: 5%;
 
     
     /* text-align: center; */
@@ -24,8 +24,8 @@
     
 }
 #mentor{
-    /* text-align: center; */
-    display: flex;
+    text-align: center;
+
     /* margin-left: 20%; */
 }
 body{
@@ -41,7 +41,7 @@ body{
 
   #footer{
     display: flex;
-    gap: 30%;
+    gap: 20%;
 
     font-size: large;
     background-color: black;
@@ -50,127 +50,68 @@ body{
   #product{
     margin-left: 10%;
   }
-@media screen and (min-width: 375px) and(max-width:768px){
-
-    .navbar{
-        list-style-type: none;
-        margin: 0;
-        padding: 5px;
-        display: flex;
-    
-        background-color: blue;
-        color:whitesmoke;
-    }
-    /* #mentor{
-        display: flex;
-        flex-wrap: wrap;
-    } */
-    
-  
-  
-  }
-
-
- */
-  
-  .navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-  
-    background-color: blue;
-    color:whitesmoke;
-  }
-  /* #mentor{
-    display: flex;
-    flex-wrap: wrap;
-} */
-#details{
-    font-size: large;
-    margin-top: 10%;
-    
-}
 
 
 
+@media screen and (min-width: 375px) and(max-width:667px){
 
-@media screen and (max-width: 300px) {
-
-    .navbar{
-      list-style-type: none;
-      margin: 0;
-      padding: 5px;
-      display: flex;
-      font-size: 24px;
-    
-      background-color: blue;
-      color:whitesmoke;
-      text-decoration: none;
-       
-    }
-    #landingcontent{
-      display: flex; 
-      flex-wrap: wrap;
-      gap: 5%; 
-      margin-top: 5%;
-    }
-  
-    #footer{
-      display: flex;
-      
-    
-      font-size: x-large;
-      background-color: black;
-      color: white;
-      
-    }
-    #mentor{
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 20%;
-    }
-  
-  }
-  
-  
-  
-  .navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 24px;
-  
-    background-color: blue;
-    color:whitesmoke;
-    text-decoration: none;
-     
-  }
-  #landingcontent{
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 5%; 
-    margin-top: 5%;
-  }
-  
   #footer{
     display: flex;
     flex-wrap: wrap;
-    
-  
-    font-size: x-large;
+
+
+    font-size: large;
     background-color: black;
     color: white;
-    
   }
-  #mentor{
-    text-align: center;
+  .navbar{
+    color: white;
+    list-style-type: none;
+    /* margin: 0;
+    padding: 5px; */
     display: flex;
     flex-wrap: wrap;
     
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+
+
+  
 }
+
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+
+
+  font-size: smaller;
+  background-color: black;
+  color: white;
+}
+.navbar{
+  /* color: white;
+  list-style-type: none;
+  margin: 0; */
+  /* padding: 5px; */
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+ 
+  
+ 
+
+
+
+
+
 

@@ -92,38 +92,16 @@ body{
 #PRODUCT{
   margin-left: 5%;
 }
-
-
-
-
-@media screen and (max-width: 300px) {
-  .navbar{
-      color: white;
-      list-style-type: none;
-      margin: 0;
-      padding: 5px;
-      display: flex;
+#nyj{
+  text-align: center;
   
-      background-color:blue;
-      color:white;
-  } 
-
-
-.navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-
-  background-color:blue ;
-  color:whitesmoke;
 }
+#input{
+  width: 150px;
 }
 
 
-@media screen and (min-width: 375px) and(max-width:768px){
-
+@media screen and (min-width: 375px) and(max-width:667px){
 
   .navbar{
     color: white;
@@ -132,25 +110,49 @@ body{
       padding: 5px;
       display: flex;
       flex-wrap: wrap;
+      
       background-color: blue;
       
-      
+      font-size: 24px;
+  }
+  #footer{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    
   }
 
 }
 
+
+
 .navbar{
   color: white;
     list-style-type: none;
-  
+    margin: 0;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
     
     background-color: blue;
     
+    font-size: 24px;
+}
+
+#footer{
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  font-size: x-large;
+  background-color: black;
+  color: white;
   
 }
+
+
 
 
 
