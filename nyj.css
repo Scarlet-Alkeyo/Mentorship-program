@@ -8,15 +8,154 @@
     background-color: blue;
     color: white;
     font-size: 24px;
+    text-decoration: none;
 }
 .navbar a{
     color: aliceblue;
+    text-decoration: none;
   }
 
   .content{
-    text-align: center;
+    /* text-align: center; */
     font-size: x-large;
+    display: flex;
+    margin-bottom: 5%;
   }
   body{
     background-color:antiquewhite;
   }
+  #book{
+    margin-top: 10%;
+    margin-left: 30%;
+    /* width: 100px; */
+    /* width: 100px; */
+  }
+  #footer{
+    display: flex;
+    gap: 20%;
+    /* margin-left: 10%; */
+    font-size: x-large;
+    background-color: black;
+    color: white;
+  }
+
+  #product{
+    margin-left: 10%;
+  }
+
+
+
+
+  @media screen and (max-width: 300px) {
+
+    .navbar{
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      display: flex;
+      font-size: 24px;
+    
+      background-color: blue;
+      color:whitesmoke;
+      text-decoration: none;
+       
+    }
+  
+  
+    #footer{
+      display: flex;
+      gap: 30%;
+    
+      font-size: x-large;
+      background-color: black;
+      color: white;
+      
+    }
+    .content{
+      text-align: center;
+      font-size: x-large;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 5%;
+    }
+  
+  
+  }
+  
+  
+  
+  .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+  
+    background-color: blue;
+    color:whitesmoke;
+    text-decoration: none;
+     
+  }
+  #landingcontent{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 5%; 
+    margin-top: 5%;
+  }
+  
+  #footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    
+  }
+  .content{
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+  }
+
+  @media screen and (max-width: 300px) {
+    #footer{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+      margin-left: 10%;
+      font-size: x-large;
+      /* background-color: aquamarine; */
+    }
+  
+  }
+
+  /* #footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    margin-left: 10%;
+    font-size: x-large;
+    /* background-color: aquamarine; */
+  /* } */ */
+  .content{
+    text-align: center;
+    font-size: large;
+  }
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}

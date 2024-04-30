@@ -7,6 +7,7 @@
     gap: 10%;
     background-color: blue;
     color: white;
+    text-decoration: none;
 }
 #landingcontent{
   display: flex; 
@@ -22,34 +23,31 @@
 }
 .navbar a{
   color: aliceblue;
+  text-decoration: none;
 }
 body{
   background-color:aliceblue;
 }
 #footer{
   display: flex;
-  gap: 20%;
-  margin-left: 10%;
+  gap: 30%;
+
   font-size: x-large;
-  /* background-color: aquamarine; */
+  background-color: black;
+  color: white;
+  
 }
 
-.navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-  display: flex;
-  font-size: 24px;
 
-  background-color: blue;
-  color:whitesmoke;
-}
 #ladndingimage{
-  width: 700px;
+  width: 500px;
 }
 
 body{
   background-color:antiquewhite;
+}
+#PRODUCT{
+  margin-left: 5%;
 }
 
 
@@ -79,29 +77,86 @@ body{
 
 }
 
-/* .navbar{
+
+#ladndingimage{
+  width: 400px;
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+  .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+  
+    background-color: blue;
+    color:whitesmoke;
+    text-decoration: none;
+     
+  }
+  #landingcontent{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 5%; 
+    margin-top: 5%;
+  }
+
+  #footer{
+    display: flex;
+    gap: 30%;
+  
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    
+  }
+
+  #ladndingimage{
+    width: 400px;
+  }
+
+}
+
+
+
+.navbar{
   list-style-type: none;
   margin: 0;
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
 
+  font-size: 24px;
+
   background-color: blue;
   color:whitesmoke;
-}
-.landingcontent{
-  font-size: px;
-  
-}#footer{
-  display: flex;
-  gap: 5%;
+  text-decoration: none;
+   
 }
 #landingcontent{
-  display: flex;
-  flex-wrap: wrap; 
+  display: flex; 
+  flex-wrap: wrap;
   gap: 5%; 
   margin-top: 5%;
 }
+
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30%;
+
+  font-size: x-large;
+  background-color: black;
+  color: white;
+
+  
+}
+
 #ladndingimage{
-  width: 80px;
-} */
+  width: 400px;
+}
