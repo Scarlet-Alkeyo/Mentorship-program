@@ -17,16 +17,16 @@
 
   .content{
     text-align: center;
-    font-size: large;
+    /* font-size: large; */
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   body{
     background-color:antiquewhite;
   }
   #book{
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 40%;
     /* width: 100px; */
     /* width: 100px; */
   }
