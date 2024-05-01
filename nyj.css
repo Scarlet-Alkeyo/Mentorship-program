@@ -4,10 +4,10 @@
     margin: 0;
     padding: 5px;
     display: flex;
-    gap: 10%;
+    gap: 15%;
     background-color: blue;
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
 }
 .navbar a{
@@ -17,31 +17,37 @@
 
   .content{
     text-align: center;
-    /* font-size: large; */
-    display: flex;
-    margin-bottom: 10%;
+    font-size: 18px;
+  font-style: italic;
+  
   }
   body{
     background-color:antiquewhite;
   }
   #book{
     margin-top: 10%;
-    margin-left: 40%;
+    margin-left: 30%;
     /* width: 100px; */
     /* width: 100px; */
   }
   #footer{
+
     display: flex;
-    gap: 20%;
-    /* margin-left: 10%; */
-    font-size: x-large;
     background-color: black;
     color: white;
+    margin-top: 50%;
+    gap: 15%;
+    
   }
+
 
   #product{
     margin-left: 10%;
   }
+
+
+
+  
 
 
 
