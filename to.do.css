@@ -84,7 +84,7 @@ body{
   display: flex;
   gap: 20%;
 
-  font-size: x-large;
+  font-size: large;
   background-color: black;
   color: white;
   
@@ -155,6 +155,57 @@ body{
 
 
 
+
+@media screen and (min-width: 668px) and(max-width:800px){
+
+  .navbar{
+    color: white;
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      
+      background-color: blue;
+      
+      font-size: 24px;
+  }
+  #footer{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    
+  }
+
+}
+
+
+
+.navbar{
+  color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: blue;
+    
+    font-size: 24px;
+}
+
+#footer{
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  font-size: x-large;
+  background-color: black;
+  color: white;
+  
+}
 
 
 
