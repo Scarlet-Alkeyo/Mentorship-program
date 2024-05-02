@@ -55,7 +55,8 @@ a{
   width: 35px;
   height: 35px;
   margin-top: 2%;
-  padding-left: 20%;
+  margin-right: 20%;
+  /* padding-left: 10%; */
 }
 
 */
@@ -81,12 +82,7 @@ body{
 }
 
 #footer{
-  display: flex;
-  gap: 20%;
-
-  font-size: large;
-  background-color: black;
-  color: white;
+ 
   
 }
 #PRODUCT{
@@ -99,122 +95,205 @@ body{
 #input{
   width: 150px;
 }
+#view{
+  display: flex;
+  margin-left: 40%;
+  gap: 5%;
 
+}
+#view button{
+  width: 150px;
+  height: 60px;
+}
+#task{
+  margin-left: 40%;
+}
+.inputs{
+  display: flex;
+  gap: 5%;
+}
+#inputs1{
+  display: flex;
+  gap: 5%;
+}
+#inputs2{
+  display: flex;
+  gap: 5%;
+}
 
-@media screen and (min-width: 375px) and(max-width:667px){
+#inputs3{
+  display: flex;
+  gap: 5%;
+}
+#footer{
 
-  .navbar{
-    color: white;
-      list-style-type: none;
-      margin: 0;
-      padding: 5px;
-      display: flex;
-      flex-wrap: wrap;
-      
-      background-color: blue;
-      
-      font-size: 24px;
-  }
-  #footer{
-    display: flex;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 10%;
+  gap: 15%;
   
-    font-size: x-large;
-    background-color: black;
-    color: white;
-    
-  }
-
 }
 
 
 
-.navbar{
-  color: white;
+@media only screen and (min-width:200px) and ( max-width: 400px){
+
+ 
+  .navbar{
+    color: white;
     list-style-type: none;
     margin: 0;
     padding: 5px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    
+    gap: 1%;
     background-color: blue;
-    
-    font-size: 24px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
-
-#footer{
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.inputs{
   display: flex;
-  flex-wrap: wrap-reverse;
-
-  font-size: x-large;
-  background-color: black;
-  color: white;
+  flex-wrap: wrap;
   
 }
-/* .text{
-  margin-left: 6%;
-}
-#view{ */
-  /* text-align: center; */
-  /* display: flex;
-  grid-area: 2%;
 
-} */
-
-
-
-
-
-@media screen and (min-width: 668px) and(max-width:800px){
-
-  .navbar{
-    color: white;
-      list-style-type: none;
-      margin: 0;
-      padding: 5px;
-      display: flex;
-      flex-wrap: wrap;
-      
-      background-color: blue;
-      
-      font-size: 24px;
-  }
-  #footer{
-    display: flex;
-    flex-wrap: wrap-reverse;
-  
-    font-size: x-large;
-    background-color: black;
-    color: white;
-    
-  }
 
 }
-
-
-
 .navbar{
   color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbar a{
+color: aliceblue;
+text-decoration: none;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+
+
+
+@media only screen and (min-width:400px) and ( max-width: 600px){
+  .navbar{
+    color: white;
     list-style-type: none;
     margin: 0;
     padding: 5px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    
+    gap: 5%;
     background-color: blue;
-    
-    font-size: 24px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
-
-#footer{
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.inputs{
   display: flex;
-  flex-wrap: wrap-reverse;
-
-  font-size: x-large;
-  background-color: black;
-  color: white;
+  flex-wrap: wrap;
   
+} 
 }
+
+@media only screen and (min-width:600px) and ( max-width: 800px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  
+} 
+}
+
+
+@media only screen and (min-width:800px) and ( max-width: 1000px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  
+} 
+}
+
+@media only screen and (min-width:1000px) and ( max-width: 1200px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  
+} 
+}
+
+
+
 
 
 

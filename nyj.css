@@ -4,7 +4,7 @@
     margin: 0;
     padding: 5px;
     display: flex;
-    gap: 15%;
+    gap: 10%;
     background-color: blue;
     color: white;
     font-size: 30px;
@@ -14,10 +14,16 @@
     color: aliceblue;
     text-decoration: none;
   }
+  h1{
+    text-align: center;
+  }
 
   .content{
-    text-align: center;
-    font-size: 18px;
+    
+    font-size: 25px;
+  
+    
+
   font-style: italic;
   
   }
@@ -25,17 +31,16 @@
     background-color:antiquewhite;
   }
   #book{
-    margin-top: 10%;
-    margin-left: 30%;
-    /* width: 100px; */
-    /* width: 100px; */
+    
+   padding-left: 790px;
+   
   }
   #footer{
 
     display: flex;
     background-color: black;
     color: white;
-    margin-top: 50%;
+    margin-top: 10%;
     gap: 15%;
     
   }
@@ -44,124 +49,321 @@
   #product{
     margin-left: 10%;
   }
-
-
-
-  
-
-
-
-
-  @media screen and (max-width: 300px) {
-
-    .navbar{
-      list-style-type: none;
-      margin: 0;
-      padding: 5px;
-      display: flex;
-      font-size: 24px;
-    
-      background-color: blue;
-      color:whitesmoke;
-      text-decoration: none;
-       
-    }
-  
-  
-    #footer{
-      display: flex;
-      gap: 30%;
-    
-      font-size: x-large;
-      background-color: black;
-      color: white;
-      
-    }
-    .content{
-      text-align: center;
-      font-size: x-large;
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 5%;
-    }
-  
-  
+ 
+  #words{
+    text-align: justify;
   }
+  #logo{
+    width: 50px;
+  }
+
+
   
-  
-  
+
+@media only screen and (min-width:200px) and ( max-width: 400px){
   .navbar{
+    color: white;
     list-style-type: none;
     margin: 0;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 24px;
-  
+    gap: 1%;
     background-color: blue;
-    color:whitesmoke;
+    color: white;
+    font-size: 12px;
     text-decoration: none;
-     
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
   }
-  #landingcontent{
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 5%; 
-    margin-top: 5%;
+  h1{
+    text-align: center;
   }
-  
-  #footer{
-    display: flex;
-    flex-wrap: wrap;
+
+  .content{
     
+    font-size: 15px;
+    flex-wrap: wrap;
   
-    font-size: x-large;
+    
+
+  font-style: italic;
+  
+  }
+  body{
+    background-color:antiquewhite;
+  }
+  #book{
+    
+   padding-left: 0px;
+   
+  }
+  #footer{
+
+flex-wrap: wrap;
     background-color: black;
     color: white;
+    margin-top: 0%;
+    gap: 1%;
     
   }
-  .content{
-    text-align: center;
-    font-size: x-large;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5%;
+
+
+  #product{
+    margin-left: 0%;
+  }
+ 
+  #words{
+    text-align: justify;
+  }
+  #logo{
+    width: 50px;
   }
 
-  @media screen and (max-width: 300px) {
-    #footer{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20%;
-      margin-left: 10%;
-      font-size: x-large;
-      /* background-color: aquamarine; */
-    }
-  
-  }
-
-  /* #footer{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20%;
-    margin-left: 10%;
-    font-size: x-large;
-    /* background-color: aquamarine; */
-  /* } */ */
-  .content{
-    text-align: center;
-    font-size: large;
-  }
+}
+@media only screen and (min-width:400px) and ( max-width: 600px){
   .navbar{
     color: white;
     list-style-type: none;
     margin: 0;
     padding: 5px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
     background-color: blue;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .content{
+    
+    font-size: 15px;
+  
+    
+
+  font-style: italic;
+  
+  }
+  body{
+    background-color:antiquewhite;
+  }
+  #book{
+    
+   padding-left: 0px;
+   
+  }
+  #footer{
+
+flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    gap: 1%;
+    
+  }
+
+
+  #product{
+    margin-left: 0%;
+  }
+ 
+  #words{
+    text-align: justify;
+  }
+  #logo{
+    width: 50px;
+  }
+  
+}
+@media only screen and (min-width:600px) and ( max-width: 800px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .content{
+    
+    font-size: 15px;
+  
+    
+
+  font-style: italic;
+  
+  }
+  body{
+    background-color:antiquewhite;
+  }
+  #book{
+    
+   padding-left: 0px;
+   
+  }
+  #footer{
+
+flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    gap: 1%;
+    
+  }
+
+
+  #product{
+    margin-left: 0%;
+  }
+ 
+  #words{
+    text-align: justify;
+  }
+  #logo{
+    width: 50px;
+  }
+  
+}
+@media only screen and (min-width:800px) and ( max-width: 1000px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .content{
+    
+    font-size: 15px;
+  
+    
+
+  font-style: italic;
+  
+  }
+  body{
+    background-color:antiquewhite;
+  }
+  #book{
+    
+   padding-left: 0px;
+   
+  }
+  #footer{
+
+flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    gap: 1%;
+    
+  }
+
+
+  #product{
+    margin-left: 0%;
+  }
+ 
+  #words{
+    text-align: justify;
+  }
+  #logo{
+    width: 50px;
+  }
+  
+}@media only screen and (min-width:1000px) and ( max-width: 1400px){
+  .navbar{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .content{
+    flex-wrap: wrap;
+    
+    font-size: 10px;
+  
+    
+
+  font-style: italic;
+  
+  }
+  body{
+    background-color:antiquewhite;
+  }
+  #book{
+    
+   padding-left: 0px;
+   
+  }
+  #footer{
+
+flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    gap: 5%;
+    
+  }
+
+
+  #product{
+    margin-left: 0%;
+  }
+ 
+  #words{
+    text-align: justify;
+  }
+  #logo{
+    width: 50px;
+  }
+  
 }
